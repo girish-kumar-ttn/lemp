@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Deploy') {
             steps {
-                sh 'scp index.html ubuntu@172.31.39.253:/var/www/html/index.nginx-debian.html'
+                sh 'scp index.html ubuntu@13.233.2.127:/var/www/html/index.nginx-debian.html'
             }
         }
     }
